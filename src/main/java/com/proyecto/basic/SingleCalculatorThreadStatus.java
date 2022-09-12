@@ -50,11 +50,12 @@ public class SingleCalculatorThreadStatus{
         System.out.printf("Main : ************************************\n");
     }
 } 
-class Calculator implements Runnable{
+
+class CalculatorSingle implements Runnable{
 
     private final Integer number;
 
-    public Calculator(Integer number) {
+    public CalculatorSingle(Integer number) {
         this.number = number;
     }
     
